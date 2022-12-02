@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado César</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <script src="index.js"></script>
+</head>
+<body>
+<h1>Cifrado</h1>
+<h4>Mensaje a cifrar</h4>
+<p><input type="text" id="mensajeACifrar" placeholder= "TU MENSAJE"/></p>
+<h4>Ingresa el número de veces que quieres que se desplace tu mensaje</h4>
+<p><input type="number" id="desplazamientoCifrado" min="1" max="100"/></p>
+<p><button type="button" id="cifrar">Cifrar</button>     
+   
+<h4>Mensaje cifrado</h4>
+<p><input type="text" id="mensajeCifrado"/></p>
+
+<h1>Descifrado</h1>
+<h4>Mensaje a descifrar</h4>
+<p><input type="text" id="mensajeADescifrar" placeholder= "TU MENSAJE"/></p>
+<h4>Ingresa el número de veces que quieres que se desplace tu mensaje</h4>
+<p><input type="number" id="desplazamientoDescifrado" min="1" max="100"/></p>
+<p><button type="button" id="descifrar">Descifrar</button>     
+   
+<h4>Mensaje descifrado</h4>
+<p><input type="text" id="mensajeDescifrado"/></p>
+</body> 
 </html>
+
