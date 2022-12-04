@@ -1,25 +1,25 @@
-window.addEventListener("load",inicio,true);
+window.addEventListener("load",botones);
 
-function inicio(){
+function botones(){
   document.getElementById("mensajeACifrar").addEventListener("keyup", function(){
     this.value = this.value.toUpperCase();
-  }, true);
+  });
     
   document.getElementById("cifrar").addEventListener("click",function(){  
     const texto = document.getElementById("mensajeACifrar").value;
     const desplazamiento = document.getElementById("desplazamientoCifrado").value;               
     document.getElementById("mensajeCifrado").value = cifrar(texto, desplazamiento);
-  },true);
+  });
 
   document.getElementById("mensajeADescifrar").addEventListener("keyup", function(){
     this.value = this.value.toUpperCase();
-  }, true);
+  });
     
   document.getElementById("descifrar").addEventListener("click",function(){  
     const texto = document.getElementById("mensajeADescifrar").value;
     const desplazamiento = document.getElementById("desplazamientoDescifrado").value;               
     document.getElementById("mensajeDescifrado").value = descifrar(texto, desplazamiento);
-  },true);
+  });
 }
 
 function cifrar(texto, desplazamiento) {
