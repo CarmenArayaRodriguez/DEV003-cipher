@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(253, 253, 230);
+    text-align: center;
+  }
+  button{
+    background-color: orange;
+  }
+  input{
+    background-color: none;
+    height:40px;
+    width: 500px;
+    text-align: center;
+  }
+  .resetCifrado{
+    background-color: palegreen;
+    height:30px;
+    width:60px ;
+  }
+  .resetDescifrado{
+    background-color: palegreen;
+    height:30px;
+    width:60px ;
+  } 
+  .desplazarCifrado{
+    height:20px;
+    width:40px ;
+  }
+  
+  .desplazarDescifrado{
+    height:20px;
+    width:40px ;
+  }
+  

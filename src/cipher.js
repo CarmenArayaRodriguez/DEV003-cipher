@@ -27,5 +27,3 @@ var document= document.getElementById("mensajeACifrar").addEventListener("keyup"
     }
     return resultado;
   }
-  
- 

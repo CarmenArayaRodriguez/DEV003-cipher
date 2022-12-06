@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cifrado César</title>
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
     
 </head>
 <body>
@@ -14,11 +14,11 @@
 <h4>Mensaje a cifrar</h4>
 <p><input type="text" id="mensajeACifrar" placeholder= "TU MENSAJE"/></p>
 <h4>Ingresa el número de veces que quieres que se desplace tu mensaje</h4>
-<p><input type="number" id="desplazamientoCifrado" min="1" max="100"/></p>
+<p><input type="number" id="desplazamientoCifrado" min="1" max="100" class="desplazarCifrado" /></p>
 <p><button type="button" id="cifrar">Cifrar</button></p>
 <h4>Mensaje cifrado</h4>
 <p><input type="text" id="mensajeCifrado"/></p>
-<p><input type="reset" id="borrarMensajeCifrado" value="Borrar"/></p>
+<p><input type="reset" id="borrarMensajeCifrado" value="Borrar" class="resetCifrado" /></p>
 </form>
 
 <form id="Descifrador" autocomplete="off">
@@ -26,11 +26,11 @@
 <h4>Mensaje a descifrar</h4>
 <p><input type="text" id="mensajeADescifrar" placeholder= "TU MENSAJE"/></p>
 <h4>Ingresa el número de veces que quieres que se desplace tu mensaje</h4>
-<p><input type="number" id="desplazamientoDescifrado" min="1" max="100"/></p>
-<p><button type="button" id="descifrar">Descifrar</button></p>     
+<p><input type="number" id="desplazamientoDescifrado" min="1" max="100" class="desplazarDescifrado"/></p>
+<p><button type="button" id="descifrar" >Descifrar</button></p>     
 <h4>Mensaje descifrado</h4>
 <p><input type="text" id="mensajeDescifrado"/></p>
-<p><input type="reset" id="borrarMensajeDescifrado" value="Borrar"/></p>
+<p><input type="reset" id="borrarMensajeDescifrado" value="Borrar" class="resetDescifrado" /></p>
 </form>
 
 <script src="cipher.js"></script>
