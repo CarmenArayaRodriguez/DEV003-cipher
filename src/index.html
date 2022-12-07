@@ -4,36 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cifrado César</title>
+    <title>Cifrador César</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     
 </head>
-<body>
-<form id="Cifrador" autocomplete="off"> 
-<h1>Cifrado</h1>
+<body>   
+<div class="titulo">
+<h1>Cifrador César</h1>
+</div>
+
+<p>¡Hola, profesora!<br>Este cifrador César está pensado especialmente para que ahorres tiempo en la confección de material para tus clases.<br>Usa esta herramienta para cifrar mensajes que tus estudiantes deban descubrir y también para descifrar los mensajes que produzcan como parte de las actividades educativas.<br>¡Estamos felices de que recuperes tiempo para ti!</p><br>
+<div class="cifraDecifra">
+<div class="cifra">
+<form id="Cifrador" autocomplete="off">
+<h2>Cifrado</h2>
 <h4>Mensaje a cifrar</h4>
-<p><input type="text" id="mensajeACifrar" placeholder= "TU MENSAJE"/></p>
+<p><input type="text" id="mensajeACifrar" placeholder= "INGRESA TU MENSAJE AQUÍ" class="ingreso"/></p>
 <h4>Ingresa el número de veces que quieres que se desplace tu mensaje</h4>
-<p><input type="number" id="desplazamientoCifrado" min="1" max="100" class="desplazarCifrado" /></p>
+<p><input type="number" id="desplazamientoCifrado" min="1" max="100" class="desplazarCifrado" value="1"/></p>
 <p><button type="button" id="cifrar">Cifrar</button></p>
 <h4>Mensaje cifrado</h4>
-<p><input type="text" id="mensajeCifrado"/></p>
-<p><input type="reset" id="borrarMensajeCifrado" value="Borrar" class="resetCifrado" /></p>
+<p><input type="text" id="mensajeCifrado"class="egreso"/></p>
+<p><input type="reset" id="borrarMensajeCifrado" value="Borrar" class="resetCifrado"/></p>
 </form>
+</div>
 
+<div class="decifra">
 <form id="Descifrador" autocomplete="off">
-<h1>Descifrado</h1>
+<h2>Descifrado</h2>
 <h4>Mensaje a descifrar</h4>
-<p><input type="text" id="mensajeADescifrar" placeholder= "TU MENSAJE"/></p>
+<p><input type="text" id="mensajeADescifrar" placeholder= "INGRESA TU MENSAJE AQUÍ" class="ingreso"/></p>
 <h4>Ingresa el número de veces que quieres que se desplace tu mensaje</h4>
-<p><input type="number" id="desplazamientoDescifrado" min="1" max="100" class="desplazarDescifrado"/></p>
+<p><input type="number" id="desplazamientoDescifrado" min="1" max="100" class="desplazarDescifrado" value="1" /></p>
 <p><button type="button" id="descifrar" >Descifrar</button></p>     
 <h4>Mensaje descifrado</h4>
-<p><input type="text" id="mensajeDescifrado"/></p>
-<p><input type="reset" id="borrarMensajeDescifrado" value="Borrar" class="resetDescifrado" /></p>
+<p><input type="text" id="mensajeDescifrado" class="egreso"/></p>
+<p><input type="reset" id="borrarMensajeDescifrado" value="Borrar" class="resetDescifrado"/></p>
 </form>
-
+</div>
+</div>
+<img src="pizarra.png" alt="Escolares escribiendo en una pizarra" class="imgPizarra">
+<div class="recursos">
+    <h3>Recursos Educativos para profesoras</h3>
+    </div>
 <script src="index.js" type="module"></script>
-
 </body> 
 </html>

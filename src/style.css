@@ -1,10 +1,12 @@
 body{
-    background-color: rgb(253, 253, 230);
+  background-color: rgb(252, 243, 209);
     text-align: center;
   }
   
   button{
-    background-color: rgba(255, 247, 0, 0.457);
+    background-color: rgb(173,222,212);
+    height: 40px;
+    width: 100px;
   }
 
   input{
@@ -15,15 +17,15 @@ body{
   }
 
   .resetCifrado{
-    background-color: rgb(248, 6, 6);
-    height:30px;
-    width:60px ;
+    background-color: rgb(237, 104, 86);
+    height:40px;
+    width:100px ;
   }
 
   .resetDescifrado{
-    background-color: rgb(248, 6,6);
-    height:30px;
-    width:60px ;
+    background-color: rgb(237, 104,86);
+    height:40px;
+    width:100px ;
   } 
 
   .desplazarCifrado{
@@ -35,4 +37,69 @@ body{
     height:20px;
     width:40px ;
   }
-  
+
+  .cifra{
+    background-color:rgb(252, 243, 209);
+    width: 700px;
+  }
+
+  .decifra{
+    background-color:rgb(252, 243, 209);
+    width: 700px;
+    margin-left: 15px;
+  }
+
+  .cifraDecifra{
+    display: flex;
+  }
+
+  .titulo{
+    background-color:rgb(252, 243, 209);
+    display: flex;
+    justify-content: center;
+  }
+  .recursos {
+    margin-top: 0px;
+    padding: 0px;
+    background-color: rgb(252, 243, 209);
+    float: right;
+    font-size: 15px;
+    color: rgb(188, 13, 121);
+  }
+
+  .ingreso{
+    border-width: 4px;
+    border-color: rgba(167, 50, 64, 0.654);
+    border-style:dashed;
+    border-radius: 15px;
+    padding: 15px;
+  }
+
+  .egreso{
+    border-width: 4px;
+    border-color: rgba(245, 206, 204, 0.7);
+    border-style:dashed;
+    border-radius: 15px;
+    padding: 15px;
+  }
+  h1 {
+    color: rgb(167, 50, 63);
+  }
+  h2 {
+    color: rgba(0, 0, 0, 0.858);
+  }
+
+  h4 {
+    color: rgba(0, 0, 0, 0.858);
+  }
+
+  p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.858); 
+  }
+
+  .imgPizarra {
+    width: 100px;
+    height: 100px;
+    float: right;
+  }
