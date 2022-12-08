@@ -2,104 +2,114 @@ body{
   background-color: rgb(252, 243, 209);
     text-align: center;
   }
-  
-  button{
-    background-color: rgb(173,222,212);
-    height: 40px;
-    width: 100px;
+
+input{
+  background-color: none;
+  height:40px;
+  width: 500px;
+  text-align: center;
   }
 
-  input{
-    background-color: none;
-    height:40px;
-    width: 500px;
-    text-align: center;
+button{
+  background-color: rgb(173,222,212);
+  font-size: 20px;
+  font-family:serif;
+  text-align: center;
+  height: 50px;
+  width: 120px;
+  margin-right: 120px;
+  margin-left: 120px;
+  border: 0px;
+  border-radius: 80px;
+  cursor: pointer;
   }
 
-  .resetCifrado{
-    background-color: rgb(237, 104, 86);
-    height:40px;
-    width:100px ;
+button:hover {
+  background-color: rgb(93, 179, 162);
+}
+
+.botones{
+  background-color: rgb(252, 243, 209);
+  display: flex;
+  justify-content: center;
   }
 
-  .resetDescifrado{
-    background-color: rgb(237, 104,86);
-    height:40px;
-    width:100px ;
-  } 
-
-  .desplazarCifrado{
-    height:20px;
-    width:40px ;
-  }
-  
-  .desplazarDescifrado{
-    height:20px;
-    width:40px ;
+.resetCifradoDescifrado{
+  background-color: rgb(237, 104, 86);
+  height:40px;
+  width:100px;
+  margin-inline:0px;
+  border: 0px;
+  border-radius: 20px;
+  cursor: pointer;
   }
 
-  .cifra{
-    background-color:rgb(252, 243, 209);
-    width: 700px;
+.resetCifradoDescifrado:hover{
+  background-color: rgb(199, 35, 14);
+}
+
+.desplazarCifradoDescifrado{
+  height:20px;
+  width:40px ;
   }
 
-  .decifra{
-    background-color:rgb(252, 243, 209);
-    width: 700px;
-    margin-left: 15px;
+.cifraDescifra{
+  background-color: rgb(252, 243, 209);
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
   }
 
-  .cifraDecifra{
-    display: flex;
+.titulo{
+  background-color: rgb(252, 243, 209);
+  display: flex;
+  justify-content: center;
   }
 
-  .titulo{
-    background-color:rgb(252, 243, 209);
-    display: flex;
-    justify-content: center;
-  }
-  .recursos {
-    margin-top: 0px;
-    padding: 0px;
-    background-color: rgb(252, 243, 209);
-    float: right;
-    font-size: 15px;
-    color: rgb(188, 13, 121);
+.recursos {
+  margin-top: 0px;
+  padding: 0px;
+  background-color: rgb(252, 243, 209);
+  float: right;
+  font-size: 15px;
+  color: rgb(188, 13, 121);
   }
 
-  .ingreso{
-    border-width: 4px;
-    border-color: rgba(167, 50, 64, 0.654);
-    border-style:dashed;
-    border-radius: 15px;
-    padding: 15px;
+.ingreso{
+  border-width: 4px;
+  border-color: rgba(167, 50, 64, 0.654);
+  border-style:dashed;
+  border-radius: 15px;
+  padding: 15px;
   }
 
-  .egreso{
-    border-width: 4px;
-    border-color: rgba(245, 206, 204, 0.7);
-    border-style:dashed;
-    border-radius: 15px;
-    padding: 15px;
-  }
-  h1 {
-    color: rgb(167, 50, 63);
-  }
-  h2 {
-    color: rgba(0, 0, 0, 0.858);
+.egreso{
+  border-width: 4px;
+  border-color: rgba(245, 206, 204, 0.7);
+  border-style:dashed;
+  border-radius: 15px;
+  padding: 15px;
   }
 
-  h4 {
-    color: rgba(0, 0, 0, 0.858);
+h1 {
+  color: rgb(167, 50, 63);
   }
 
-  p {
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.858); 
+h2 {
+  color: rgba(0, 0, 0, 0.858);
   }
 
-  .imgPizarra {
-    width: 100px;
-    height: 65px;
-    float: right;
+h4 {
+  color: rgba(0, 0, 0, 0.858);
+  }
+
+p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.858); 
+  }
+
+.imgPizarra {
+  width: 100px;
+  height: 65px;
+  float: right;
   }
