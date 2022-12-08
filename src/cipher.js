@@ -2,7 +2,7 @@ const cipher = {
   code: (texto, desplazamiento) => {
     let resultado = "";
     const abecedario = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    desplazamiento = desplazamiento % 26;
+    desplazamiento = (desplazamiento % 26 + 26) % 26;
 
     if (texto) {
       for (let i = 0; i < texto.length; ++i) {
@@ -22,7 +22,7 @@ const cipher = {
   decode: (texto, desplazamiento) => {
     let resultado = "";
     const abecedario = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    desplazamiento = desplazamiento % 26;
+    desplazamiento = (desplazamiento % 26 - 26) % 26;
 
     if (texto) {
       for (let i = 0; i < texto.length; ++i) {
