@@ -1,5 +1,5 @@
 const cipher = {
-  code: (texto, desplazamiento) => {
+  encode: (texto, desplazamiento) => {
     let resultado = "";
     const abecedario = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     desplazamiento = (desplazamiento % 26 + 26) % 26;

@@ -9,7 +9,7 @@ const btnCipher= document.getElementById("cifrar");
 btnCipher.addEventListener("click",function(){  
   const texto = document.getElementById("mensajeACifrarDescifrar").value;
   const desplazamiento = document.getElementById("desplazamientoCifradoDescifrado").value;               
-  document.getElementById("mensajeCifradoDescifrado").value = cipher.code(texto, desplazamiento);
+  document.getElementById("mensajeCifradoDescifrado").value = cipher.encode(texto, desplazamiento);
 });
 
 const btnDecipher= document.getElementById("descifrar");
