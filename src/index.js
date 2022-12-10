@@ -9,14 +9,14 @@ const btnCipher= document.getElementById("cifrar");
 btnCipher.addEventListener("click",function(){  
   const texto = document.getElementById("mensajeACifrarDescifrar").value;
   const desplazamiento = document.getElementById("desplazamientoCifradoDescifrado").value;               
-  document.getElementById("mensajeCifradoDescifrado").value = cipher.encode(texto, desplazamiento);
+  document.getElementById("mensajeCifradoDescifrado").value = cipher.encode(desplazamiento, texto);
 });
 
 const btnDecipher= document.getElementById("descifrar");
-btnDecipher.addEventListener("click",function (){  
+btnDecipher.addEventListener("click",function(){  
   const texto = document.getElementById("mensajeACifrarDescifrar").value;
-  const desplazamiento = document.getElementById("desplazamientoCifradoDescifrado").value;               
-  document.getElementById("mensajeCifradoDescifrado").value = cipher.decode(texto, desplazamiento);
+  const desplazamiento = document.getElementById("desplazamientoCifradoDescifrado").value;         
+  document.getElementById("mensajeCifradoDescifrado").value = cipher.decode(desplazamiento, texto);
 });
   
 console.log(cipher);
