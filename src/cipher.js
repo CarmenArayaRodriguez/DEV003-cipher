@@ -5,20 +5,18 @@ const cipher = {
     desplazamiento = (desplazamiento % 26 + 26) % 26;
 
     if (texto) {
-      for (let i = 0; i < texto.length; ++i) {
+      for (let i = 0; i<texto.length; ++i) {
 
         if (abecedario.indexOf(texto[i]) !== -1) {
           const posicion = ((abecedario.indexOf(texto[i]) + desplazamiento ) % 26);
           resultado += abecedario[posicion];
-        
         }
         else
-          resultado += texto[i];
+          resultado += texto [i]
       }
     }
     return resultado;
   },
-
 
   decode: (desplazamiento, texto) => {
     let resultado = "";
@@ -32,10 +30,8 @@ const cipher = {
           const posicion = ((abecedario.indexOf(texto[i]) - desplazamiento) % 26);
           resultado += abecedario[posicion];
         }
-        else {
+        else
           resultado += texto[i];
-        }
-
       }
       return resultado;
     }

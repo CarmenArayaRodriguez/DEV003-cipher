@@ -18,6 +18,4 @@ btnDecipher.addEventListener("click",function(){
   const desplazamiento = document.getElementById("desplazamientoCifradoDescifrado").value;         
   document.getElementById("mensajeCifradoDescifrado").value = cipher.decode(desplazamiento, texto);
 });
-  
-console.log(cipher);
  
