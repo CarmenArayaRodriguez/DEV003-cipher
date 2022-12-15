@@ -30,3 +30,4 @@ Para el ingreso del número de desplazamiento que elige la usuaria, se optó por
 Los botones de cifrado y de descifrado tienen el mismo color de fondo pero cuando el ratón se posiciona en uno de ellos, aparece un puntero con forma de manito y el color del botón se oscurece para que sea claro para la usuaria cuál de los botones se va a accionar.
 El botón de reinicio es de un color cercano al rojo, para advertir que si se cliquea sobre él, todo lo ingresado por la usaría y el mensaje ya cifrado o descifrado, se borrará. En este botón también aparece un puntero con forma de manito y el color se oscurece cuando se posiciona el ratón sobre él. 
 Los colores utilizados en esta aplicación están inspirados en los colores de revistas de material didáctico para profesoras de educación inicial y educación primaria.
+lolcc
