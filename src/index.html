@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cifrador César</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    
+
 </head>
-<body>   
-<div class="titulo">
-<h1>Cifrador César</h1>
-</div>
 
-<p>¡Hola, profesora!<br>Este cifrador César está pensado especialmente para que ahorres tiempo en la confección de material para tus clases.<br>Usa esta herramienta para cifrar mensajes que tus estudiantes deban descubrir y también para descifrar los mensajes que produzcan como parte de las actividades educativas.<br>¡Estamos felices de que recuperes tiempo para ti!</p>
-
-<div class="cifraDescifra">
-<form id="Cifrador" autocomplete="off">
-<h2>Cifrado / Descifrado</h2>
-<input type="text" id="mensajeACifrarDescifrar" placeholder= "INGRESA TU MENSAJE AQUÍ" class="ingreso"/><br>
-<h4>Ingresa el número de veces que quieres que se desplace tu mensaje</h4>
-<input type="number" id="desplazamientoCifradoDescifrado" min="1" max="100" class="desplazarCifradoDescifrado" value="1"/>
-<div class="botones">
-<button type="button" id="cifrar" class="cifrar">Cifrar</button>
-<button type="button" id="descifrar" >Descifrar</button>
-</div>
-
-<h4>Mensaje cifrado o descifrado</h4>
-<input type="text" id="mensajeCifradoDescifrado" class="egreso"/><br><br><br>
-<input type="reset" id="borrarMensajeCifradoDescifado" value="Borrar" class="resetCifradoDescifrado"/>
-</form>
-</div>  
-
-<img src="pizarra.png" alt="Escolares escribiendo en una pizarra" class="imgPizarra">
-<div class="recursos">
-    <h3>Recursos educativos para profesoras</h3>
+<body>
+    <div class="titulo">
+        <h1>Cifrado César</h1>
     </div>
-<script src="index.js" type="module"></script>
-</body> 
+
+    <p>¡Hola, profesora!<br>Este cifrador César está pensado especialmente para que ahorres tiempo en la confección de
+        material para tus clases.<br>Usa esta herramienta para cifrar mensajes que tus estudiantes deban descubrir y
+        también para descifrar los mensajes que produzcan como parte de las actividades educativas.<br>¡Estamos felices
+        de que recuperes tiempo para ti!</p>
+
+    <div class="cifraDescifra">
+        <form id="Cifrador" autocomplete="off">
+            <h2>Cifrado / Descifrado</h2>
+            <input type="text" id="mensajeACifrarDescifrar" placeholder="INGRESA TU MENSAJE AQUÍ" class="ingreso" /><br>
+            <h4>Ingresa el número de veces que quieres que se desplace tu mensaje</h4>
+            <input type="number" id="desplazamientoCifradoDescifrado" min="1" max="100"
+                class="desplazarCifradoDescifrado" value="1" />
+            <div class="botones">
+                <button type="button" id="cifrar" class="cifrar">Cifrar</button>
+                <button type="button" id="descifrar">Descifrar</button>
+            </div>
+
+            <h4>Mensaje cifrado o descifrado</h4>
+            <input type="text" id="mensajeCifradoDescifrado" class="egreso" /><br><br><br>
+            <input type="reset" id="borrarMensajeCifradoDescifado" value="Borrar" class="resetCifradoDescifrado" />
+        </form>
+    </div>
+
+    <img src="pizarra.png" alt="Escolares escribiendo en una pizarra" class="imgPizarra">
+    <div class="recursos">
+        <h3>Recursos educativos para profesoras</h3>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+
 </html>
